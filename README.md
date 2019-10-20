@@ -1,6 +1,8 @@
-# widget_size_position
+# widget size and position
 
-A new Flutter project.
+This is to demondtrate how to find widget size and position
+
+<img width="299" alt="widget size and position" src="https://user-images.githubusercontent.com/29503875/67161067-a4516900-f376-11e9-8403-0916939b89b3.png">
 
 ## Getting Started
 
