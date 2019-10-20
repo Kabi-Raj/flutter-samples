@@ -6,6 +6,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
   }
@@ -66,21 +67,22 @@ class _HomePageState extends State<HomePage> {
     var dv = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
-        key: _containerKey,
         title: Text('Widget SizePosition'),
       ),
       body: Center(
         child: Column(
           children: <Widget>[
             Container(
-              //skey: _containerKey,
+              key: _containerKey,
+              alignment: Alignment.center,
               margin: EdgeInsets.all(10.0),
               width: 200.0,
               height: 300.0,
+              child: Text('Container'),
               color: Colors.blue,
             ),
             Text(
-                "height: ${_containerSize.height}, width: ${_containerSize.width}"),
+                "container height: ${_containerSize.height}, width: ${_containerSize.width}"),
             Text(
                 "position: x - ${_containerPosition.dx}, y - ${_containerPosition.dy}"),
             Text("device width: ${dv.width} and heighht: ${dv.height}")
