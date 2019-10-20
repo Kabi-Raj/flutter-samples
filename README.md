@@ -2,7 +2,7 @@
 
 This is to demondtrate how to find widget size and position
 
-<img width="299" alt="widget size and position" src="https://user-images.githubusercontent.com/29503875/67161067-a4516900-f376-11e9-8403-0916939b89b3.png">
+<img width="305" alt="widget size and position" src="https://user-images.githubusercontent.com/29503875/67161192-d2837880-f377-11e9-8460-a7cca997d193.png">
 
 ## Getting Started
 
